@@ -1,0 +1,40 @@
+\documentclass{tufte-handout}
+\usepackage{jeff}
+
+
+\title{A Machine Learning Guide for Mathematicians}
+\begin{document}
+\maketitle
+
+\newthought{Big Data, Machine Learning, Data Science} ---
+these are all names for the area at the intersection of statistics, 
+mathematics, and computer science that has captured so much attention.
+ 
+
+\section{Estimating a Probability Distribution}
+Given a collection of samples $x_j$ drawn from $X$ ($x_j = X(\omega_j)$),
+estimate the probability measure associated with $X$.
+
+
+\begin{itemize}
+	\item Distinct events (e.g., dice roll)
+	\item Continuous value (e.g., $x_j \in \R^p$)
+	\begin{itemize}
+		\item Parameteric density estimation -- 
+			we have a model for $X$ that depends on unknown parameters
+		\item Nonparametric density estimation\footnote{
+				Nonparametric does not mean there is no model, 
+				it means the model depends directly on $x_j$, 
+				not on a fixed number of parameters derived from $x_j$.} --
+			we don't have a model
+	\end{itemize}
+\end{itemize}
+
+The first choice we need to make is $x_j$ a distinct event (e.g., dice roll) or 
+continuous value (e.g., a real number).
+If it is a distinct event, simply enumerate the events 
+
+
+\subsection{Distinct Events}
+
+\end{document}
